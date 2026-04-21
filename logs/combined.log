@@ -1,0 +1,175 @@
+2026-04-21 21:18:20 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:19:41 [[31merror[39m]: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\body-parser\lib\types\json.js:72:19)
+    at C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-04-21 21:19:55 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:20:27 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:20:42 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlw [instagram]
+2026-04-21 21:20:42 [[31merror[39m]: Info error: 
+Error code: Error: spawn yt-dlp ENOENT
+Error: 
+Error code: Error: spawn yt-dlp ENOENT
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:188:38
+    at exithandler (node:child_process:424:5)
+    at ChildProcess.errorhandler (node:child_process:436:5)
+    at ChildProcess.emit (node:events:508:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-04-21 21:20:42 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:50:42 +0000] "POST /api/download/info HTTP/1.1" 400 73 "-" "node"
+2026-04-21 21:22:18 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlw [instagram]
+2026-04-21 21:22:24 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:52:24 +0000] "POST /api/download/info HTTP/1.1" 200 5390 "-" "node"
+2026-04-21 21:24:22 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:54:22 +0000] "GET /api/analytics HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:24:41 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg== [instagram]
+2026-04-21 21:24:45 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:54:45 +0000] "POST /api/download/info HTTP/1.1" 200 5390 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:25:08 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:25:15 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:55:15 +0000] "POST /api/download/video HTTP/1.1" 200 271 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:25:15 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:55:15 +0000] "GET /files/045ee345-f9dd-487f-895e-ddd5466c7767.fdash-1283704733218886a.m4a HTTP/1.1" 200 172882 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:25:26 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:55:26 +0000] "GET /files/045ee345-f9dd-487f-895e-ddd5466c7767.fdash-1283704733218886a.m4a HTTP/1.1" 200 172882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:25:32 [[32minfo[39m]: Extracting audio: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:25:37 [[31merror[39m]: Audio download error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+Error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at ChildProcess.<anonymous> (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:174:58)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2026-04-21 21:25:37 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:55:37 +0000] "POST /api/download/audio HTTP/1.1" 500 293 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:25:50 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:55:50 +0000] "POST /api/download/thumbnail HTTP/1.1" 200 143 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:26:03 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:56:03 +0000] "POST /api/download/thumbnail HTTP/1.1" 200 143 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:26:20 [[32minfo[39m]: Extracting audio: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:26:26 [[31merror[39m]: Audio download error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+Error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at ChildProcess.<anonymous> (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:174:58)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2026-04-21 21:26:26 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:56:26 +0000] "POST /api/download/audio HTTP/1.1" 500 293 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:26:31 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:26:40 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:56:40 +0000] "POST /api/download/video HTTP/1.1" 200 271 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:26:47 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:26:55 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:56:55 +0000] "POST /api/download/video HTTP/1.1" 200 271 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:27:41 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:27:50 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:57:50 +0000] "POST /api/download/video HTTP/1.1" 200 271 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:27:50 [[32minfo[39m]: ::1 - - [21/Apr/2026:15:57:50 +0000] "GET /files/57824483-1b1c-4f25-ad2d-e2ad3483fba7.fdash-1283704733218886a.m4a HTTP/1.1" 200 172882 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:36:57 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:37:28 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:37:55 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:40:13 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlw [instagram]
+2026-04-21 21:40:19 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:10:19 +0000] "POST /api/download/info HTTP/1.1" 200 5390 "-" "node"
+2026-04-21 21:40:56 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:10:56 +0000] "GET /api/analytics HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:41:27 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:11:27 +0000] "GET /api/analytics HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:41:35 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg== [instagram]
+2026-04-21 21:41:41 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:11:41 +0000] "POST /api/download/info HTTP/1.1" 200 5390 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:41:55 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:42:04 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:12:04 +0000] "POST /api/download/video HTTP/1.1" 200 223 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:42:26 [[32minfo[39m]: Extracting audio: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:42:32 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:12:32 +0000] "POST /api/download/audio HTTP/1.1" 200 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:42:43 [[32minfo[39m]: Extracting audio: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:42:49 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:12:49 +0000] "POST /api/download/audio HTTP/1.1" 200 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:46:15 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:16:15 +0000] "GET /api/analytics HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:46:40 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg== [instagram]
+2026-04-21 21:46:46 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:16:46 +0000] "POST /api/download/info HTTP/1.1" 200 5390 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:46:51 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:47:03 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:17:03 +0000] "POST /api/download/video HTTP/1.1" 200 223 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:47:03 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:17:03 +0000] "GET /files/f8a2cec6-a041-49a1-8c6f-052342cf36c1.mp4 HTTP/1.1" 200 5426714 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:47:53 [[32minfo[39m]: Extracting audio: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:48:00 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:18:00 +0000] "POST /api/download/audio HTTP/1.1" 200 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:48:00 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:18:00 +0000] "GET /files/51c0b370-93e6-46de-8b29-44fe2ddc191b.mp3 HTTP/1.1" 200 670224 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:48:34 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:18:34 +0000] "POST /api/download/thumbnail HTTP/1.1" 200 143 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:48:34 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:18:34 +0000] "GET /files/1484dc01-80b8-4975-9569-f3e282d850cb.jpg HTTP/1.1" 200 33020 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:54:45 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:56:44 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:26:44 +0000] "GET /api/analytics HTTP/1.1" 200 123 "-" "curl/8.18.0"
+2026-04-21 21:58:02 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:28:02 +0000] "GET /api/analytics HTTP/1.1" 200 123 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:58:19 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg== [instagram]
+2026-04-21 21:58:24 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:28:24 +0000] "POST /api/download/info HTTP/1.1" 200 5390 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:58:33 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:58:42 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:28:42 +0000] "POST /api/download/video HTTP/1.1" 200 223 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:58:42 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:28:42 +0000] "GET /files/8af0475d-9736-45bb-9dce-c5bc65dbdd2c.mp4 HTTP/1.1" 200 5426714 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:58:46 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:58:58 [[32minfo[39m]: Extracting audio: https://www.instagram.com/reel/DXWhyeHEc2N/?igsh=MWZsZHFvNjlwaXltMg==
+2026-04-21 21:59:04 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:29:04 +0000] "POST /api/download/audio HTTP/1.1" 200 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:59:05 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:29:05 +0000] "GET /files/60c66909-d685-4e28-96f5-a1d990598ea4.mp3 HTTP/1.1" 200 670224 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 21:59:07 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 21:59:20 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:29:20 +0000] "GET /api/analytics HTTP/1.1" 200 157 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 22:00:53 [[32minfo[39m]: Fetching info for: https://www.instagram.com/p/DSpglnwgrad/?igsh=YmhyNTU3bHcydGV2 [instagram]
+2026-04-21 22:00:58 [[31merror[39m]: Info error: 
+Error code: Error: Command failed: yt-dlp.exe https://www.instagram.com/p/DSpglnwgrad/?igsh=YmhyNTU3bHcydGV2 -f best --dump-json
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+
+Stderr:
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+Error: 
+Error code: Error: Command failed: yt-dlp.exe https://www.instagram.com/p/DSpglnwgrad/?igsh=YmhyNTU3bHcydGV2 -f best --dump-json
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+
+Stderr:
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:188:38
+    at ChildProcess.exithandler (node:child_process:424:5)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2026-04-21 22:00:58 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:30:58 +0000] "POST /api/download/info HTTP/1.1" 400 73 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 22:01:46 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:31:46 +0000] "GET /api/analytics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 22:01:52 [[32minfo[39m]: Fetching info for: https://www.instagram.com/reel/DPNoaM_jy0i/?igsh=bzQ5cXB3NWZpbzAx [instagram]
+2026-04-21 22:01:56 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:31:56 +0000] "POST /api/download/info HTTP/1.1" 200 2587 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 22:02:03 [[32minfo[39m]: Downloading video [best]: https://www.instagram.com/reel/DPNoaM_jy0i/?igsh=bzQ5cXB3NWZpbzAx
+2026-04-21 22:02:13 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:32:13 +0000] "POST /api/download/video HTTP/1.1" 200 223 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 22:02:13 [[32minfo[39m]: ::1 - - [21/Apr/2026:16:32:13 +0000] "GET /files/8423f8da-d52f-484d-b7f3-3da5a465f4d9.mp4 HTTP/1.1" 200 1755563 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-04-21 22:02:16 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 22:05:22 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 22:05:36 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000
+2026-04-21 22:06:01 [[32minfo[39m]: 🚀 NovaFetch API running on http://localhost:5000

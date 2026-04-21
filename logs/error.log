@@ -1,0 +1,96 @@
+2026-04-21 21:19:41 [[31merror[39m]: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\body-parser\lib\types\json.js:72:19)
+    at C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-04-21 21:20:42 [[31merror[39m]: Info error: 
+Error code: Error: spawn yt-dlp ENOENT
+Error: 
+Error code: Error: spawn yt-dlp ENOENT
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:188:38
+    at exithandler (node:child_process:424:5)
+    at ChildProcess.errorhandler (node:child_process:436:5)
+    at ChildProcess.emit (node:events:508:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-04-21 21:25:37 [[31merror[39m]: Audio download error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+Error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at ChildProcess.<anonymous> (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:174:58)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2026-04-21 21:26:26 [[31merror[39m]: Audio download error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+Error: 
+Error code: 1
+
+Stderr:
+WARNING: DXWhyeHEc2N: writing DASH m4a. Only some players support this container. Install ffmpeg to fix this automatically
+ERROR: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at ChildProcess.<anonymous> (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:174:58)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2026-04-21 22:00:58 [[31merror[39m]: Info error: 
+Error code: Error: Command failed: yt-dlp.exe https://www.instagram.com/p/DSpglnwgrad/?igsh=YmhyNTU3bHcydGV2 -f best --dump-json
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+
+Stderr:
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+Error: 
+Error code: Error: Command failed: yt-dlp.exe https://www.instagram.com/p/DSpglnwgrad/?igsh=YmhyNTU3bHcydGV2 -f best --dump-json
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+
+Stderr:
+WARNING: "-f best" selects the best pre-merged format which is often not the best option.
+         To let yt-dlp download and merge the best available formats, simply do not pass any format selection.
+         If you know what you are doing and want only the best pre-merged format, use "-f b" instead to suppress this warning
+ERROR: [Instagram] DSpglnwgrad: There is no video in this post
+
+    at YTDlpWrap.createError (C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:347:16)
+    at C:\Users\Naveensri\OneDrive\Desktop\INSTA DOWNLOAD\backend\node_modules\yt-dlp-wrap\dist\index.js:188:38
+    at ChildProcess.exithandler (node:child_process:424:5)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
